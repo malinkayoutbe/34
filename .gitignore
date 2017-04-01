@@ -1,0 +1,25 @@
+package com.javarush.task.task13.task1308;
+import java.util.Scanner;
+/* 
+Жив или нет
+*/
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+
+        while (true)
+        {
+        System.out.print("Ты жив? ");
+        Scanner in = new Scanner(System.in);
+        String s = in.next();
+
+        if (s.equals("да")){
+
+            System.out.print("Хорошо ПОКА");
+            break;}
+            System.out.print("Плохо ");
+
+
+        }
+    }
+}
